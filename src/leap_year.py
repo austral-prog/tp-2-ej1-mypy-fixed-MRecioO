@@ -1,4 +1,4 @@
-def is_leap_year() -> bool:
+def is_leap_year() -> bool: 
     year1: int = int(input('Ingrese su año:'))
     if year1 % 4 == 0:
         if year1 % 400 == 0:
